@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Kaushan Script';
+    /*
+    medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em 
+    */
+    font-size: 2em;
+    color: black;
+}
+h1{
+    /* shorthand font
+    - font-style -> font-weihgt -> font-size -> fonte-family
+    */
+
+    font: italic bolder 3em arial  ;
+}
+
+h2{
+    font: italic bolder 2em  ;
+}
